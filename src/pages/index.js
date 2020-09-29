@@ -4,28 +4,32 @@ import "../css/tailwind.css";
 
 export default function Home() {
   return (
-    <div className={"page-container w-full flex flex-col border-t-4 border-gray-400"}>
+    <div className={"page-container w-full flex flex-col justify-center items-center"}>
 
       <Navigation />
 
-      <header>
-        <h1>Timuism</h1>
-        <h2>
-          Hey! I'm Timothy Long. I'm a front-end developer, consultant, and life-long learner.
-        </h2>
-        <h3>
-          This website is multi-purpose—but mostly a playground for me expand my knowledge of the web. It is also my portfolio, and personal blog. Curious about who Tim is? Learn more about who I am 
-        </h3>
-      </header>
+      <div className={"mt-5 w-2/3"}>
 
-      <section id="callToActionSection">
-        <a href="">Subscribe to my Newsletter</a>
-        <a href="">Say Hello!</a>
-      </section>
+        <header>
+          <h1 className={"hidden"}>Timuism</h1>
+          <h2>
+            Hey! I'm Timothy Long. I'm a front-end developer, consultant, and life-long learner.
+          </h2>
+          <h3>
+            This website is multi-purpose—but mostly a playground for me expand my knowledge of the web. It is also my portfolio, and personal blog. Curious about who Tim is? Learn more about who I am 
+          </h3>
+        </header>
 
-      <section id="musicSection">
-        In addition to my love for web technolgies, I am a musician. Need a bassist for a show or recording session? Contact me. Check out my musical life here.
-      </section>
+        <section id="callToActionSection">
+          <a href="">Subscribe to my Newsletter</a>
+          <a href="">Say Hello!</a>
+        </section>
+
+        <section id="musicSection">
+          In addition to my love for web technolgies, I am a musician. Need a bassist for a show or recording session? Contact me. Check out my musical life here.
+        </section>
+
+      </div>
 
       <footer>
         <nav>
